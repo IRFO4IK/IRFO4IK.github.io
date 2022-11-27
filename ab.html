@@ -2,21 +2,28 @@
 <html lang="en">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+    $('#abmem').hover(function() {
+    $('#abme').animate({
+        height: '1px',
+        }, 300);
+    });
+    </script>
 </head>
 
 <body>
     <header class="headder">
 
         <div class="logo">
-            <h2>IRFO4IK</h2>
+            <h2>FH</h2>
         </div>
         <div class="panel">
             <div class="type"><a href="index.html">HOME </a></div>
@@ -30,9 +37,10 @@
 
 
     </header>
-    <h1 style="font-family: 'Zen Kaku Gothic New', sans-serif;color: white; text-align: center; font-size: 50px;padding-top: 250px;height: 300px;"> ABOUT ME</h1>
+<img class="abpng" src="4.png">
+    <div id="abmem" class="abtitle1"><div class="abtitle"> ABOUT ME </div></div>
 
-    <div class="main2">
+    <div class="main2" style="margin-top: 300px;">
         <div class="zag">
             <h1 style="font-size: 60px;color: #555B6E;padding-top: 40px;">my social networks</h1>
         </div>
@@ -43,7 +51,7 @@
             <h1 class="lox1" style="color:#555B6E;">Alex IRFO4IK Simonov</h1>
             <h3 class="lox2" style="color:#555B6E">Programmer editor and dreamer</h3>
 
-            <div class="abb" style="color:white"><a href="https://vk.com/poz0rishe" style="text-decoration: none;color: white;"> CONTACT </a></div>
+            <a href="https://vk.com/poz0rishe" style="text-decoration: none;color: white;"><div class="abb" style="color:white"> CONTACT </div></a>
 
 
         </div>
@@ -90,8 +98,6 @@
         </a>
 
     </footer>
-
-
 
 </body>
 
